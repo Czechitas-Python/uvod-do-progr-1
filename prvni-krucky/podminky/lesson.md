@@ -4,19 +4,19 @@ ale budeme potřebovat umožnit, aby se některé části programu vykonaly jen 
 určitých *podmínek* , tedy aby se naše programy dokázaly rozhodovat a měnit
 svoje chování na základě zadaného vstupu od uživatele.
 
-![Adult only](assets/adult-only.png){.fig .fig-60}
+![15plus](assets/15plus_500.png){.fig .fig-60}
 
-Naše divadlo obsahuje některé lechtivé kusy s obsahem pouze pro dospělé. Na
-takové představení chceme pustit pouze uživatele starší 18ti let. Náš program
+Naše divadlo hraje i divadelní hry, které nejsou vhodné pro děti. Na
+takové představení chceme pustit pouze uživatele starší 15ti let. Náš program
 tedy musí být schopný se podle zadaného věku rozhodnout, zda uživateli umožní
 koupit si lístek nebo nikoliv. Takový program by pak mohl vypadat například
 takto:
 
 ```python
-if vek >= 18:
-  print('Vítej ve světě slasti')
+if vek >= 15:
+  print('Vítej na představení')
 else:
-  print('Odpal, holomku!')
+  print('Dnes to není pro tebe')
 ```
 
 ## Bloky
