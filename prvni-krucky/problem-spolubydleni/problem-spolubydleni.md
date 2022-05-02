@@ -91,6 +91,3 @@ for jmeno in seznamJmen:
 
 Seznamy v proměnných `seznamJmen` a `utraty` představují tabulku celkových útrat
 pro každého jednoho člověka.
-
-Výsledný Python program si můžete stáhnout z [tohoto odkazu](/download/intro-
-to-progr/spolubydleni.py).
