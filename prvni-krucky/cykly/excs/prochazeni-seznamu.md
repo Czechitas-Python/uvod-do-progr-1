@@ -24,5 +24,3 @@ hesla = [
 
 2. Pomocí cyklu vypište všechny hesla na obrazovku, každé na jeden řádek.
 3. Upravte váš program tak, aby vypisoval jen bezpečná hesla, tedy taková, jež jsou delší než 8 znaků.
-4. Upravte váš program tak, aby vypisoval jen ta hesla, jež obsahují znak pomlčky '-'.
-

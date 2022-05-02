@@ -39,14 +39,14 @@ Jak už bylo napsáno výše, cyklus může obsahovat libovolný blok příkazů
 se můžeme opravdu rozparádit a vložit do bloku v cyklu FOR třeba podmínku.
 
 ```python
-jmena = ['petr', 'pavel', 'jitka', 'jana']
+znamky = [1, 3, 2, 1, 1, 2]
 
-for jmeno in jmena:
-  if len(jmeno) <= 4:
-    mail = jmeno + '@gmail.com'
-  else:
-    mail = jmeno + '@seznam.cz'
-    print(mail)
+pocet_jednicek = 0
+for z in znamky:
+  if z == 1:
+    pocet_jednicek = pocet_jednicek + 1
+
+print("Počet jedniček:", pocet_jednicek)
 ```
 
 Tímto jsme vlastně vysvětlili to hlavní a zásadní co o cyklu FOR zatím
