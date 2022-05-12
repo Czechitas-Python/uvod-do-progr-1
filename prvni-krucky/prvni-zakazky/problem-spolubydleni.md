@@ -60,6 +60,4 @@ tak říkajíc šmahem: prostě kouknu a vidím, nějak to tady přičtu, tady o
 hotovo. To se může celkem povést pro tabulku o šesti lidech. Těžko ale takový
 postup uplatníme například pro menší  švýcarskou vesnici, která má 375 obyvatel
 a v tabulce výdajů je 8 822 záznamů. Pro vaši představu, taková data zaberou
-oboustranně 197 listů A4 a těžko je můžeme zpracovat šmahem. Máte-li nutkání
-si tabulku skutečně prohlédnout, můžete si ji stáhnout [zde ve formátu
-PDF](/download/intro-to-progr/tabulka.pdf).
+oboustranně 197 listů A4 a těžko je můžeme zpracovat šmahem.
