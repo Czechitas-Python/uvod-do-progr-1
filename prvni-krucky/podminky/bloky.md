@@ -14,9 +14,9 @@ takto:
 
 ```python
 if vek >= 15:
-  print('Vítej na představení')
+    print('Vítej na představení')
 else:
-  print('Dnes to není pro tebe')
+    print('Dnes to není pro tebe')
 ```
 
 ## Bloky

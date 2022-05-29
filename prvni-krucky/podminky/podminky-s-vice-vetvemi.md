@@ -7,11 +7,11 @@ Budeme tady potřebovat podmínku s více větvemi:
 
 ```python
 if vek < 6:
-  print('Předškolák')
+    print('Předškolák')
 elif vek < 15:
-  print('Školák')
+    print('Školák')
 elif vek < 18:
-  print('Mladistvý')
+    print('Mladistvý')
 else:
-  print('Dospělý')
+    print('Dospělý')
 ```

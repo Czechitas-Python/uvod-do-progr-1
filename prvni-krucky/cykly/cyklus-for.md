@@ -14,7 +14,7 @@ obrazovku, každou na nový řádek. K tomu nám stačí takovýto kousek kódu.
 ```python
 znamky = [1, 3, 2, 1, 1, 2]
 for z in znamky:
-  print(z)
+    print(z)
 ```
 
 V tomto konkrétním případě tedy náš cyklus prochází seznam známek jednu po
@@ -29,8 +29,8 @@ e-mailové adresy.
 ```python
 jmena = ['petr', 'pavel', 'jitka', 'jana']
 for jmeno in jmena:
-  mail = jmeno + '@gmail.com'
-  print(mail)
+    mail = jmeno + '@gmail.com'
+    print(mail)
 ```
 
 Takto vytiskneme na obrazovku maily jednotlivých lidí, každý na jeden řádek.
@@ -43,8 +43,8 @@ znamky = [1, 3, 2, 1, 1, 2]
 
 pocet_jednicek = 0
 for z in znamky:
-  if z == 1:
-    pocet_jednicek = pocet_jednicek + 1
+    if z == 1:
+        pocet_jednicek = pocet_jednicek + 1
 
 print("Počet jedniček:", pocet_jednicek)
 ```
@@ -62,7 +62,7 @@ Ukažme si například jak se pomocí cyklu spočítá součet všech čísel v 
 ```python
 soucet = 0
 for cislo in cisla:
-  soucet = soucet + cislo
+    soucet = soucet + cislo
 ```
 
 Ne, že bychom zrovna tento cyklus nutně potřebovali. Python obsahuje funkci
