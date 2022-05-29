@@ -5,7 +5,7 @@ následující řádky
 
 ```python
 kurz = 25
-cena = 12 * 25
+cena = 12 * kurz
 print(cena)
 ```
 
