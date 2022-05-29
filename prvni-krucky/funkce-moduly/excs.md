@@ -3,7 +3,3 @@
 ::exc[excs>zaokrouhlovani]
 ::exc[excs>zaokrouhlovani-nahoru]
 ::exc[excs>nahodna-cisla]
-
-
-## Bonusy
-::exc[excs>klasicke-zaokrouhlovani]

@@ -16,3 +16,7 @@ přesně mezi 3 a 4. Díky tomuto pravidlu tak Python namísto zaokrouhlování 
 nahoru zaokrouhluje v polovině případů nahoru a v polovině dolů. Je to jakýsi
 pokus být víc fér, ale zatím jsem nepotkal žádný jiný programovací jazyk,
 který by se o něco takového snažil.
+
+## Cvičení na doma
+::exc[excs>klasicke-zaokrouhlovani]
+
