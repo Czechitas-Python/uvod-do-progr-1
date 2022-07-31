@@ -3,32 +3,22 @@ title: Jednoduché podmínky
 demand: 2
 ---
 
-1. Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo. Pokud se heslo shoduje s heslem **simsalabim** vypište na výstup
-
-```
-Správné heslo
-```
-
-Program spusťte na konzoli a vyzkoušejte, že dělá co má.
-
-2. Upravte tento program tak, aby vypsal
+1. Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo. Pokud se heslo neshoduje s heslem **simsalabim**, vypište na výstup
 
 ```
 Vstup nepovolen
 ```
 
-pokud uživatel zadá špatné heslo.
+a zavolejte funkci `exit()`, aby uživatel neznalý hesla nemohl s programem dál pracovat.
 
-3. K vypsání textu `Vstup nepovolen` nyní použijte funkci `exit()` namísto funkce `print()`. Funkci `exit()` můžete použít stejně jako funkci `print()`, tj. text k výpisu zadejte do závorek jako vstup. Funkce `exit()` ale spolu s výpisem zprávy program ukončí a zajistí, že uživatel bez správného hesla nebude moci v aplikaci provádět žádné další akce. 
-
-4. Na konec programu vložte příkaz, který se uživatele zeptá na jeho věk. Pokud je uživateli 18 let či více, vypiš mu zprávu
+2. Na konec programu vlož příkaz, který se uživatele zeptá na věk. Pokud je uživatel starší 18 let, vypište na výstup 
 
 ```
 Smíš vstoupit
 ```
 
-Pokud je mladší, vypiš zprávu
+Pokud je mladší, vypiš 
 
 ```
-Vstup je možný až od 18 let
+Vstup povolen od 18 let
 ```
