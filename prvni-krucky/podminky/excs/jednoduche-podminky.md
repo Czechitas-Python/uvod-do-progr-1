@@ -6,7 +6,7 @@ demand: 2
 1. Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo. Pokud se heslo shoduje s heslem **simsalabim** vypište na výstup
 
 ```
-Smíš vstoupit
+Správné heslo
 ```
 
 Program spusťte na konzoli a vyzkoušejte, že dělá co má.
@@ -19,4 +19,16 @@ Vstup nepovolen
 
 pokud uživatel zadá špatné heslo.
 
-3. Upravte dále program tak, že pokud uživatel zadá správné heslo, program se ho ještě zeptá na věk a pustí jej dál pouze pokud je starší 18ti let. Pokud uživatel zadá heslo špatně, už se ho na věk neptejte a ukončete program voláním funkce `exit()`.
+3. K vypsání textu `Vstup nepovolen` nyní použijte funkci `exit()` namísto funkce `print()`. Funkci `exit()` můžete použít stejně jako funkci `print()`, tj. text k výpisu zadejte do závorek jako vstup. Funkce `exit()` ale spolu s výpisem zprávy program ukončí a zajistí, že uživatel bez správného hesla nebude moci v aplikaci provádět žádné další akce. 
+
+4. Na konec programu vložte příkaz, který se uživatele zeptá na jeho věk. Pokud je uživateli 18 let či více, vypiš mu zprávu
+
+```
+Smíš vstoupit
+```
+
+Pokud je mladší, vypiš zprávu
+
+```
+Vstup je možný až od 18 let
+```
