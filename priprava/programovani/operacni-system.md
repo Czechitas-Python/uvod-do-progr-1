@@ -1,5 +1,3 @@
-Než se pustíme do samotného programování, je potřeba na váš počítač nainstalovat dva nové programy, které budeme k programování potřebovat. Předtím si však ještě povíme něco o tom, jak se svým počítačem komunikovat
-
 ## Operační systém
 
 Každý počítač potřebuje takzvaný operační systém, například Windows 10. Operační systém je v podstatě jeden velký program, který spravuje váš počítač, umožňuje vám jej ovládat, spouštět programy, pracovat se soubory na disku apod. Bez operačního systému by váš počítač byl jen černá obrazovka bez života, něco jako autobus bez řidiče.
