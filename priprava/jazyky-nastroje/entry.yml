@@ -2,6 +2,5 @@ title: Jazyky a nástroje
 lead: Nainstalujeme jazyk Python a nástroje, které budete pro programování na vlastním počítači potřebovat.
 sections:
   - instalace-python
-  - instalace-vscode
   - instalace-rozsireni-vscode
   - overeni
