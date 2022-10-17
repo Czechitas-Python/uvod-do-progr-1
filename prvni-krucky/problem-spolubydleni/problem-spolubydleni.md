@@ -63,24 +63,24 @@ mohl vypadat například takto:
 ```python
 import statistics
 
-seznamJmen = []
+seznam_jmen = []
 utraty = []
 
 for vydaj in vydaje:
     jmeno = vydaj[0]
     utrata = vydaj[2]
 
-    if jmeno in seznamJmen:
-        index = seznamJmen.index(jmeno)
+    if jmeno in seznam_jmen:
+        index = seznam_jmen.index(jmeno)
         utraty[index] += utrata
     else:
-        seznamJmen.append(jmeno)
+        seznam_jmen.append(jmeno)
         utraty.append(utrata)
 
 prumernaUtrata = statistics.mean(utraty)
 
-for jmeno in seznamJmen:
-    index = seznamJmen.index(jmeno)
+for jmeno in seznam_jmen:
+    index = seznam_jmen.index(jmeno)
     vyrovnani = round(utraty[index] - prumernaUtrata)
 
     if vyrovnani > 0:
@@ -89,5 +89,5 @@ for jmeno in seznamJmen:
         print(jmeno + ' má dáti\t' + str(-vyrovnani))
 ```
 
-Seznamy v proměnných `seznamJmen` a `utraty` představují tabulku celkových útrat
+Seznamy v proměnných `seznam_jmen` a `utraty` představují tabulku celkových útrat
 pro každého jednoho člověka.
