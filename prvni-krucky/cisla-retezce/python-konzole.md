@@ -4,13 +4,12 @@ příkazy a uvidíme, co nám odpoví. Jak už jsme si řekli dříve, počíta�
 podstatě jen trochu chytřejší a pekelně rychlá kalkulačka. Nejsnadněji se tedy
 s programováním seznámíme, když si pomocí Pythonu necháme něco spočítat.
 
-## Python konzole
+## Python v terminálu
 
-Abychom si mohli s Pythonem povídat, musíme spustit takzvanou *Python
-konzoli*. To je prostředí, ve kterém můžeme s Pythonem komunikovat a posílat
-mu příkazy.
+Abychom si mohli s Pythonem povídat, musíme spustit prostředí, ve kterém 
+můžeme s Pythonem komunikovat a posílat mu příkazy.
 
-Pokud pracujete pod Windows, Python konzoli spustíte tak, že do termínálu
+Pokud pracujete pod Windows, Python spustíte tak, že do terminálu
 napíšete příkaz.
 
 ```shell

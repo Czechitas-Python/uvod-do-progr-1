@@ -14,7 +14,7 @@ příkazem
 >>> import math
 ```
 
-Poté, co tento příkaz zadáme do Python konzole, můžeme volat všechny funkce z
+Poté, co tento příkaz zadáme Pythonu, můžeme volat všechny funkce z
 tohoto modulu tak, že vždy před název funkce pomocí tečky připojíme název
 modulu, ze kterého funkce pochází. Například
 

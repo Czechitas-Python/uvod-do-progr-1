@@ -8,7 +8,7 @@ představíme ty nejzákladnější - celá čísla a desetinná čísla.
 ### Celá čísla
 
 Nejjednodušší datový typ jsou *celá čísla*. Pod tento typ patří hodnoty jako
-12, 1321500, -5, 0 a podobně. Pokud do Python konzole napíšete hodnotu, Python
+12, 1321500, -5, 0 a podobně. Pokud Pythonu napíšete hodnotu, Python
 vám ji vypíše zpátky, což znamená, že vám rozumí :-)
 
 ```pycon

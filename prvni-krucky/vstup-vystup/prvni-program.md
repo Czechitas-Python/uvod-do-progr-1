@@ -18,6 +18,6 @@ $ python program.py
 
 Pozor na znak dolaru na začátku tohoto příkazu. Tento znak nepíšeme! Znak
 dolaru pouze naznačuje, že tento příkaz musíme zadat do terminálu operačního
-systému, nikoliv do Python konzole. Pokud tedy váš příkazový řádek stále
-začíná třemi zobáčky (`>>>`), jste ještě pořád uvnitř Python konzole a musíte z ní
-vyskočit pomocí funkce `exit()`.
+systému, nikoliv do terminálu Pythonu. Pokud tedy váš příkazový řádek stále
+začíná třemi zobáčky (`>>>`), jste ještě pořád uvnitř terminálu Pythonu a musíte
+z něj vyskočit pomocí funkce `exit()`.
