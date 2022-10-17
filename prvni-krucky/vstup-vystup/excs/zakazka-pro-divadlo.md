@@ -7,4 +7,4 @@ Divadlo požaduje systém pro online rezervaci vstupenek na pořádaná předsta
 
 1. Založte si program `vstupenky01.py`. Bude to první verze našeho programu pro nákup vstupenek.
 1. Napište program tak, aby nejprve vypsal na obrazovku `Divadlo Pěst na oko` na první řádek, na druhý řádek chceme vypsat `Vítejte v online rezervaci vstupenek` a na třetí řádek `Pro vstup do systému je potřeba registrace`.
-1. Na dalším řádku požádejte uživatele o jeho uživatelské jméno a poté o jeho věk. Ten si uložte to nějaké proměnné jako číslo.
+1. Na dalším řádku požádejte uživatele o jeho uživatelské jméno a poté o jeho věk. Ten si uložte do nějaké proměnné jako číslo.
