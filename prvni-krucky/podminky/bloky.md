@@ -29,14 +29,6 @@ konci předchozího řádku. Tím říkáme k jaké konstrukci (v našem přípa
 náš blok příkazů patří.
 
 Odsazování bloků se nejčastěji provádí pomocí několika mezer. Mnoho
-programátorů preferuje čtyři mezery, někteří (jako já) preferují dvě mezery.
-Jsou i tací, kteří odsazují bloky pomocí jednoho tabulátoru. Podobně jako v
-případě jmen proměnných, opět zde přichází do hry různé programovací styly.
-Opět je to na jakémsi vašem estetickém cítění. Já budu v tomto kurzu vždy
-doporučovat dvě mezery.
-
-Pokud si zvolíte konkrétní styl, je velice důležité jej **dodržovat**. Pokud v
-rámci jednoho bloku budete míchat mezery a tabulátory, Python vašemu kódu
-nebude rozumět a bude vyhazovat chyby. Pokud budete jeden blok odsazovat
-pomocí tabulátorů a jeden pomocí mezer, tak vám to Python odpustí, ale je to
-strašlivá prasárna, takže to opravdu nedělejte.
+programátorů preferuje čtyři mezery, někteří preferují dvě mezery.
+V tomto kurzu se budeme držet oficiálního doporučení autorů Pythonu a používat
+čtyři mezery na odsazení.
