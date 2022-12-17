@@ -12,10 +12,8 @@ Raději si rovnou ukážeme jedna z nejjednodušší sekvencí, a to je řetěze
 tomu, že řetězec je sekvence, je možné přistupovat k jednotlivým jeho prvkům,
 v tomto případě písmenům.
 
-```pycon
->>> jmeno = 'hubert'
->>> jmeno[0]
-'h'
->>> jmeno[4]
-'r'
+```python
+jmeno = 'hubert'
+print(jmeno[0])  # 'h'
+print(jmeno[4])  # 'r'
 ```
