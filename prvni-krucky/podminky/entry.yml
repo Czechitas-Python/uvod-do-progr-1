@@ -1,7 +1,8 @@
 title: Podmínky
 lead: V této kapitole naučíme naše programy rozhodovat se a měnit svoje chování podle zadaného vstupu.
-sections: 
+sections:
   - bloky
   - podminky-s-vice-vetvemi
   - porovnavaci-operatory
   - excs
+  - cteni-na-doma
