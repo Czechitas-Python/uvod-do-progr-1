@@ -10,40 +10,6 @@ rozmyslet, jak zadaný problém vlastně budeme řešit. Je to podobné jako kdy
 spisovatel nejdříve vymyslí zápletku příběhu a až poté může sednout k počítači
 a začít ťukat obsah knihy.
 
-## Problém spolubydlení
-
-Psát kód zatím ještě neumíme, ale programátorský způsob přemýšlení nad
-problémy si můžeme vyzkoušet už nyní.
-
-Představte si šest spolubydlících: Libora, Zuzku, Patra, Pavlu, Ondru a Míšu.
-Žijí v jednom bytě a dělí se o náklady na společně používané věci jako je
-toaletní papír, mýdlo, prací prášek apod. Postupně svoje útraty zapisují do
-tabulky, která může vypadat například takto:
-
-Jméno | Věc | Částka
------ | --- | ------
-Petr| Prací prášek| 240 kč
-Ondra| Savo| 80 kč
-Pavla| Toaleťák| 65 kč
-Zuzka| Mýdlo| 50 kč
-Pavla| Závěs do koupelny| 350 kč
-Libor| Pivka na kolaudačku| 124 kč
-Petr| Pytle na odpadky| 75 kč
-Míša| Utěrky na nádobí| 130 kč
-Ondra| Toaleťák| 120 kč
-Míša| Pečící papír| 30 kč
-Zuzka| Savo| 80 kč
-Petr| Tapeta na záchod| 315 kč
-Ondra| Toaleťák| 64 kč
-
-Dejme tomu, že uplynulo například půl roku a spolubydlící se chtějí navzájem
-finančně vyrovnat. Vaším úkolem je vymyslet přesný postup, který mají
-následovat, aby došlo k celkovému vyrovnání všech lidí. Důležité je, že tento
-postup musíme vymyslet tak, abychom jej později dokázali sdělit počítači, což
-znamená, že náš postup musí být opravdu detailní. Nelze přikazovat věci typu
-"rozpočítej útratu mezi všechny účastníky". Takové příkazy počítač nezná.
-Budeme muset pracovat s určitými omezeními.
-
 ### Počítač za nás nebude přemýšlet
 
 Počítač si můžeme představit jako naprosto hloupého úředníka s tužkou, papírem
