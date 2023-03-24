@@ -60,9 +60,11 @@ mozkové závity.
 Ukažme si například jak se pomocí cyklu spočítá součet všech čísel v seznamu.
 
 ```python
+cisla = [2, 2*2, -1, 50, 0, 42, 9/3]
 soucet = 0
 for cislo in cisla:
     soucet = soucet + cislo
+print(f"Součet: {soucet}" )
 ```
 
 Ne, že bychom zrovna tento cyklus nutně potřebovali. Python obsahuje funkci
