@@ -61,8 +61,10 @@ Ukažme si například jak se pomocí cyklu spočítá součet všech čísel v 
 
 ```python
 soucet = 0
+cisla = [2, 4, -1, 50, 0, 42, 3]
 for cislo in cisla:
     soucet = soucet + cislo
+print("Součet:", soucet)
 ```
 
 Ne, že bychom zrovna tento cyklus nutně potřebovali. Python obsahuje funkci
