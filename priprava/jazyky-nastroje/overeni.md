@@ -1,14 +1,21 @@
 ## Ověření instalace Pythonu ve VS Code
-Ať už používáte jakýkoliv operační systém, spusťte Visual Studio Code a z horní lišty vyberte **Terminal → New Terminal** (viz obrázek). 
+Ať už používáte jakýkoliv operační systém, spusťte Visual Studio Code a z horní lišty vyberte **Terminal → New Terminal** (viz obrázek).
 
 ::fig[VS Code Terminal]{src=assets/vscode-term.png}
 
-Pokud jste na Windows, napište do okna, které se objeví, toto:
+Pokud jste na Windows, napište do okna příkaz, který zobrazí verzi nainstalovaného Pythonu:
 ```
-python
+python --version
 ```
-a stiskněte enter. Pokud jste na Macu nebo Linuxu, může být potřeba napsat
+a stiskněte :kdb[Enter]. Pokud jste na Macu nebo Linuxu, může být potřeba napsat
 ```
-python3
+python3 --version
 ```
-Pokud je vše v pořádku, měly by se po pár krypticky vypadajících výpisech ukázat tři zobáčky `>>>` a kurzor. To znamená, že Python je na vás připraven.
+
+Zobrazit se musí něco jako
+
+```
+Python 3.11.3
+```
+
+Pokud se zobrazí verze Pythonu alespoň 3.8, vše je připraveno. Zapamatujte si příkaz `python` nebo `python3`, kterým budete od teď Python spouštět.
