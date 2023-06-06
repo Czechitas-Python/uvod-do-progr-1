@@ -5,7 +5,7 @@ uvozovek. Například:
 
 ```py
 print('martin')
-print('12. března 2018'
+print('12. března 2018')
 print("prací prášek")
 print("Don't panic")
 ```
