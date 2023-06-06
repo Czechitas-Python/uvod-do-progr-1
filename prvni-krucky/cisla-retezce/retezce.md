@@ -25,7 +25,7 @@ martin podloucký
 Násobení opakuje stejný řetězec, přičemž počet opakování je daný číslem, kterým násobíme.
 
 ```py
-print()'bla ' * 10)
+print('bla ' * 10)
 ```
 
 Tento program vypíše
