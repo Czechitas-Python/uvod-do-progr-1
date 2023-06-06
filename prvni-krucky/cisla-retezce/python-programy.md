@@ -1,5 +1,7 @@
 V této kapitole si ukážeme základy tvorby programů v Pythonu. Program je v podstatě soubor příkazů, které počítači dáváme. K psaní programu využijeme prostředí Visual Studio Code.
 
+## Vytvoření programu
+
 Ve vývojových prostředích, na rozdíl od aplikací jako Word nebo Poznámkový blok, neotevíráme jednotlivé soubory, ale celé složky (adresáře). Reálné programy jsou totiž často docela rozsáhlé a pro větší přehlednost je ukládáme do více souborů. Ve Visual Studio Code pak otevřeme adresář a mezi soubory můžeme pohodlně přepínat.
 
 Adresář otevřeme pomocí menu `File` a možnosti `Open Folder`. Otevře se okno pro výběr adresáře. Nejlepší je si vytvořit nový adresář, který pojmenujeme například `UvodDoProgramovani`. V programování se totiž obecně snažíme vyhnout používání diakritiky a mezer v názvech souborů a adresářů. Následně necháme adresář označený a stiskneme `Select Folder`.
