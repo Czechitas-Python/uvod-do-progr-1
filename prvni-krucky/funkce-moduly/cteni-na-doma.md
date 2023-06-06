@@ -6,7 +6,7 @@ jsem zvyklí ze školy. Zkuste například následující příkazy:
 ```py
 zaokrouhlene_cislo = round(3.5)
 print(zaokrouhlene_cislo)
-zaokrouhlene_cislo = round(3.5)
+zaokrouhlene_cislo = round(2.5)
 print(zaokrouhlene_cislo)
 ```
 
