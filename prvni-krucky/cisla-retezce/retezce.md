@@ -1,22 +1,35 @@
 ## Řetězce
 
-Pokud chceme v Pythonu zadat nějaký kousek textu, použijeme takzvaný
-*řetězec*. Řetězce se v Pythonu uzavírají do jednoduchých nebo dvojitých
+Pokud chceme v Pythonu zadat nějaký kousek textu, použijeme takzvaný *řetězec*. Řetězce se v Pythonu uzavírají do jednoduchých nebo dvojitých
 uvozovek. Například:
 
-```pycon
->>> 'martin'
->>> '12. března 2018'
->>> "prací prášek"
->>> "Don't panic"
+```py
+print('martin')
+print('12. března 2018')
+print("prací prášek")
+print("Don't panic")
 ```
 
-Řetězce se v něčem chovají podobně jako čísla, můžeme je například sčítat a
-násobit
+Řetězce se v něčem chovají podobně jako čísla, můžeme je například sčítat a násobit. Sčítání spojí řetězce dohromady.
 
-```pycon
->>> 'martin' + ' ' + 'podloucký'
-'martin podloucký'
->>> 'bla ' * 10
-'bla bla bla bla bla bla bla bla bla bla '
+```py
+print('martin' + ' ' + 'podloucký')
+```
+
+Tento program vypíše
+
+```
+martin podloucký
+```
+
+Násobení opakuje stejný řetězec, přičemž počet opakování je daný číslem, kterým násobíme.
+
+```py
+print('bla ' * 10)
+```
+
+Tento program vypíše
+
+```
+bla bla bla bla bla bla bla bla bla bla 
 ```

@@ -9,9 +9,10 @@ výpočtech.
 Můžeme například v rámci dietního programu spočítat kolik vanilkových věnečků
 denně jsme spořádali za posledních 5 dní.
 
-```pycon
->>> celkem = 1 + 2 + 4 + 1 + 6
->>> prumer = celkem / 5
+```py
+celkem = 1 + 2 + 4 + 1 + 6
+prumer = celkem / 5
+print(prumer)
 ```
 
 ## Jména proměnných

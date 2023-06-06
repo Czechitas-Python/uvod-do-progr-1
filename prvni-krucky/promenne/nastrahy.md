@@ -1,23 +1,18 @@
 ## Nástrahy
 
-Dejte pozor na to, že do proměnné se jako do šuplíku ukládá pouze hodnota a
-nikoliv celý výpočet. Pokud tedy napíšeme například
+Do proměnné se jako do šuplíku ukládá pouze hodnota a nikoliv celý výpočet. Pokud tedy napíšeme například
 
-```pycon
->>> sazba = 350
->>> vyplata = 8 * sazba
+```py
+sazba = 450
+cena_zakazky = 8 * sazba
+print(cena_zakazky)
 ```
 
-bude v proměnné `vyplata` uložena hodnota 2800. Jestliže potom změníme hodnotu v
-proměnné `sazba` na něco jiného, například
+bude v proměnné `cena_zakazky` uložena hodnota 3600. Jestliže poté změníme sazbu (například započteme slevu 50 korun pro stálého zákazníka), musíme výpočet ceny zakázky přesunout až na poslední řádek. Python totiž provádí příkazy řádek po řádku a vždy pracuje s hodnotou, která je v proměnné aktuálně uložená.
 
-```pycon
->>> sazba = 420
-```
-
-v proměnné `vyplata` bude nadále uložena hodnota 2800. Pokud chceme výsledek
-výpočtu aktualizovat, musíme jej spustit znova:
-
-```pycon
->>> vyplata = 8 * sazba
+```py
+sazba = 450
+sazba = sazba - 50
+cena_zakazky = 8 * sazba
+print(cena_zakazky)
 ```
