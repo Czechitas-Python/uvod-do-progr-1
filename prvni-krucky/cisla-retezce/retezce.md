@@ -13,7 +13,7 @@ print("Don't panic")
 Řetězce se v něčem chovají podobně jako čísla, můžeme je například sčítat a násobit. Sčítání spojí řetězce dohromady.
 
 ```py
-print()'martin' + ' ' + 'podloucký')
+print('martin' + ' ' + 'podloucký')
 ```
 
 Tento program vypíše
