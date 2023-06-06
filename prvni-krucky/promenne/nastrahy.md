@@ -12,7 +12,7 @@ bude v proměnné `cena_zakazky` uložena hodnota 3600. Jestliže poté změním
 
 ```py
 sazba = 450
-sazba = sleva - 50
+sazba = sazba - 50
 cena_zakazky = 8 * sazba
 print(cena_zakazky)
 ```
