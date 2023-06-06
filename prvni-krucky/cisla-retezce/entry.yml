@@ -2,7 +2,6 @@ title: "Čísla a řetězce"
 lead: Nyní už skutečně začneme programovat a vyzkoušíme si první příkazy v jazyce Python.
 sections:
   - python-programy
-  - hodnoty
-  - aritmeticke-operatory
+  - hodnoty-a-operatory
   - retezce
   - excs
