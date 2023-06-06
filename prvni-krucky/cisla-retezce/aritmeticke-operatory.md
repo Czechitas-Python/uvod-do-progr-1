@@ -76,7 +76,7 @@ print(14 % 4)
 K využití funkcí můžeme přidat vysvětlující poznámku, kterou označujeme jako **komentář**. Komentář je řádka programu, která má programátorům pomoci se v programu zorientovat a při samotném spuštění ji Python ignoruje. Komentář začítáme symbolem `#` a za něj můžeme napsat cokoli.
 
 ```python
-# Mocnina - 2 na 9
+# Mocnina - 2 na 8
 print(2 ** 8)
 # Celočíselné dělení
 print(14 // 4)
