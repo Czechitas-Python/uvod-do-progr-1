@@ -14,6 +14,6 @@ A nyní opět pokračujeme v našem rezervačním systému.
 * 100% ze základní ceny pro návštěvníky 27 až 64 let (dospělý),
 * 50% ze základní ceny pro ostatní (senior).
 
-Nezapomeňte na zaokrouhlování, ať nám cena vyjde v celých centech.
+Nezapomeňte na zaokrouhlování, ať nám cena vyjde v celých centech. Zaokrouhlení na určitý počet desetinných míst se nastavuje druhým nepovinným parametrem funkce `round()`.
 
 4. Nakonec spočtenou cenu vypište s nějakou hezkou zprávou na výstup.

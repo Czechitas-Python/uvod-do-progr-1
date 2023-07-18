@@ -13,11 +13,11 @@ zaokrouhlene_cislo = round(3.141592)
 print(zaokrouhlene_cislo)
 ```
 
-Tomuto zápisu se říká *volání funkce*. Funkce se vždy volá tak, že napíšeme její jméno a do kulatých závorek za něj její vstupy (odborně se vstupům říká *argumenty*). V našem případě funkci předáváme jeden argument (vstup), a to číslo 3.141592. Když funkci zavoláme s nějakým argumentem, funkce takzvaně *vrátí* výsledek. Výsledek můžeme uložit do proměnné pomocí znaku `=`. Při volání funkce můžeme používat i proměnné.
+Tomuto zápisu se říká *volání funkce*. Funkce se vždy volá tak, že napíšeme její jméno a do kulatých závorek za něj její vstupy (odborně se vstupům říká *argumenty*). V našem případě funkci předáváme jeden argument (vstup), a to číslo 3.141592. Když funkci zavoláme s nějakým argumentem, funkce takzvaně *vrátí* výsledek. Výsledek můžeme uložit do proměnné pomocí znaku `=`. Při volání funkce můžeme používat i proměnné. Funkce `round()` má i druhý nepovinný parametr, kterým můžeme nastavit počet desetinných míst.
 
 ```py
 cislo = 3.141592
-zaokrouhlene_cislo = round(cislo)
+zaokrouhlene_cislo = round(cislo, 2)
 print(zaokrouhlene_cislo)
 ```
 
