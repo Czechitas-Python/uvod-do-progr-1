@@ -113,10 +113,10 @@ print(f"Cena vstupenky je {price}.")
 Závorky můžeš *někdy* vynechat, pokud ale kombinuješ operátory `or` a `and` v jedné podmínce, použitím závorek si *vždy* usnadníš život. Nemusíš totiž myslet nad pravidly pro priority logických operací. Ta říkají, že operace `and` má vyšší prioritu než `or`. Je to podobné, jako když má běžné násobení vyšší prioritu než sčítání.
 
 ## Cvičení: Další možnosti podmínek
-::exc[excs>delitelnost]
-::exc[excs>gymnazium]
-::exc[excs>gymnazium-2]
+::exc[excs/delitelnost]
+::exc[excs/gymnazium]
+::exc[excs/gymnazium-2]
 
 ## Bonusy
-::exc[excs>ruleta]
-::exc[excs>soutez]
+::exc[excs/ruleta]
+::exc[excs/soutez]

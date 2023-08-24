@@ -1,6 +1,6 @@
 ## Cvičení
-::exc[excs>retezce-jako-sekvence]
-::exc[excs>seznamy]
+::exc[excs/retezce-jako-sekvence]
+::exc[excs/seznamy]
 
 ## Bonusy
-::exc[excs>overovani-hesla]
+::exc[excs/overovani-hesla]

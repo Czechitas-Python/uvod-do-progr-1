@@ -17,5 +17,5 @@ nahoru zaokrouhluje v polovině případů nahoru a v polovině dolů. Je to jak
 pokus být víc fér, protože tento způsob zaokrouhlování nezkreslí průměr hodnot.
 
 ## Cvičení na doma
-::exc[excs>klasicke-zaokrouhlovani]
+::exc[excs/klasicke-zaokrouhlovani]
 
