@@ -11,39 +11,20 @@ euro = int(euro)
 cena = euro * kurz
 ```
 
-### Složitější výpis
+### Formátovaný výpis
 
-Tento program sice výsledek spočítá, ale nevypíše. K vypsání můžeme použít funkci `print()`, kterou již známe. Ve výpisu potřebujeme zkombinovat vysvětlující text a peněžní částku. Jednotlivé informace oddělíme čárkami. Funkce `print()` je spojí dohromady do jednoho textu a oddělí mezerami, ty tedy nemusíme do výpisu přidávat.
+Předchozí program sice výsledek spočítá, ale nevypíše. K vypsání můžeme použít funkci `print()`, kterou již známe. Ve výpisu potřebujeme zkombinovat vysvětlující text a peněžní částku.
 
-```python
-print("Cena je", cena, "Kč.")
-```
+Od verze 3.6 přibyl v Pythonu nový způsob, jak pracovat s řetězci, a to jsou :term{cs="formátované řetězce" en="f-strings"}. Ty umožňují kombinovat vepsaný text s proměnnými bez nutnosti přetypovávání vkládaných proměnných.
 
-Pokud by nám toto chování nevyhovovalo a chceme si o mezerách rozhodnout sami, můžeme použít vstup `sep` (od anglického slova :term{cs="oddělovač" en="separator"}). Ten musíme napsat i **se jménem** a vždy až **na konec**, aby funkce věděla, že se nejedná o další text k vypsání. Nyní již musíme mezery přidat do řetězců v uvozovkách, aby se ve výpisu objevily.
-
-Vstup `sep` je agumentem funkce, který zapisujeme spolu se jménem. Mezi jméno argumentu a jeho hodnotu vkládáme `=`. Bez toho by Python nedokázal odlišit, co je oddělovač a co je jen další řetězc k vypsání na obrazovku.
-
-```python
-print("Cena je ", cena, " Kč.", sep="")
-```
-
-### Převod na řetězec
-
-Další možností, jak výpis provést, je použití operátorů `+` pro spojení více řetězců dohromady.
-Musíme ale myslet na to, že proměnná `cena` je typ číslo. Nyní tedy musíme provést 
-obrácenou operaci, než jsou dělá funkce `int()`, a to je **převod čísla na řetězec**. 
-K převodu slouží funkce `str()`. Jakmile máme všechny hodnoty převedené na řetězec, můžeme
-je spojit dohromady pomocí `+`.
+Formátovaný řetězec musíme od běžného řetězce odlišit písmenem `f`, které
+vkládáme před první uvozovku (nebo apostrof). Tím Pythonu říkáme, že daný
+řetězec je formátovaný řetězce a je nutné věnovat pozornost **složeným
+závorkám** uvnitř něj. Následně můžeme dovnitř uvozovek do složených závorek
+vkládat proměnné (obecně kusy Python kódu), a to i v případě, že jsou jiného
+typu než řetězec. Proměnná je automaticky převedena na řetězec a až poté
+vložena k ostatním částem řetězce.
 
 ```python
-cena = str(cena)
-print("Cena je " + cena + " Kč.")
-```
-
-Oba řádky je možné spojit do jednoho a provést převod na řetězec uvnitř funkce `print()`.
-Pokud ti ale tento zápis připadá příliš složitý, není vůbec problém nechat jej 
-rozdělený na dva řádky.
-
-```python
-print("Cena je " + str(cena) + " Kč.")
+print(f"Cena je {cena} Kč.")
 ```
